@@ -56,3 +56,8 @@ __pycache__/
 .env
 .DS_Store
 *.Rhistory
+payment_data.csv
+fraud_model.pkl
+threshold.pkl
+tempCodeRunnerFile.py
+test.py
