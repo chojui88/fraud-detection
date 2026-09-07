@@ -235,24 +235,6 @@ PORT=3001 npm start
 | IF Dashboard | `http://localhost:3001` |
 | Spark Master UI | `http://localhost:8080` |
 
-## 환경 변수
-
-주요 환경 변수는 다음과 같습니다. 비밀번호 등 실제 비밀값은 Git에 커밋하지 마세요.
-
-```dotenv
-MODEL_TYPE=random_forest
-FRAUD_DETECTOR_GROUP=fraud-detector-group
-KAFKA_BOOTSTRAP_SERVERS=localhost:9094
-PAYMENT_TOPIC=payment-events
-
-DB_HOST=localhost
-DB_PORT=3307
-DB_NAME=fds_db
-DB_USERNAME=root
-DB_PASSWORD=your_password
-```
-
-IF 탐지기는 RF와 다른 `MODEL_TYPE` 및 consumer group을 사용해야 합니다.
 
 ## 현재 개발 상태
 
